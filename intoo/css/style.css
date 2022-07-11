@@ -1,0 +1,74 @@
+:root {
+    --bg-color:  #EFF6FF;
+    --base-text: #2A4A5C; /* (базовый текст) */
+    --fb-btn: #255A9B; /*(кнопка fb)*/
+    --in-btn: #0076B6; /*(кнопка in) */
+    --custom-blue: #3698FB;
+    --custom-gray-1: #7B8A92;
+    --custom-gray-2: #96A5B1;
+    --custom-gray-3: #AFAFAF;
+    --custom-white-2: #EEEEEE;
+    --custom-white-3: #FFFFFF;
+    --heihgt-content: 1000px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 5px;
+    background-color: var(--custom-white-3);
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('/barlow/Barlow-Black.otf');
+}
+
+h1 {
+    position: relative;
+    top: 100px;
+    left: 8%;
+    color: var(--base-text);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+p {
+    position: relative;
+    top: 150px;
+    left: 8%;
+    color: var(--base-text);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+
+.content {
+    margin: 5%;
+}
+
+
+.pic-side {
+    background: url('bg.jpg') no-repeat left top;
+    width: 50%;
+    float: left;
+}
+
+.text-side {
+    background-color: var(--custom-white-2);
+    font-family: 'Barlow', sans-serif;
+    width: 50%;
+    height: var(--heihgt-content);
+    float: right;
+}
+
+
+.logo {
+    height: var(--heihgt-content);
+    width: 100%;
+    background: url('logo.svg') no-repeat 50px 40px;
+    background-size: 150px auto;
+}
+
